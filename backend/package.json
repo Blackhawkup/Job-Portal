@@ -1,0 +1,39 @@
+{
+  "name": "job-portal-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "form-data": "^4.0.0",
+    "googleapis": "^100.0.0",
+    "jade": "*",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun.js": "^4.0.0",
+    "mongoose": "^5.13.20",
+    "mongoose-type-email": "^1.1.2",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.16.2",
+    "uuid": "^8.3.2"
+  }
+}
