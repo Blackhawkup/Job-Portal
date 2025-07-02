@@ -9,6 +9,7 @@ const Job = sequelize.define("jobs",
             allowNull: false,
             primaryKey: true,
         },
+        
         title: {
             type: Sequelize.STRING,
             allowNull: false,

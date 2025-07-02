@@ -17,7 +17,7 @@ const ResetPasswordForm = (props) => {
 
   const handleReset =(event) =>{
     event.preventDefault()
-    console.log("Password:",password)
+    console.log("Password:",password)// This is a one-line comment by tushar
     axios.post(`${apiList.resetPassword}/`,{id:id,token:token,password:password}).then((result)=>{
       if(result.data.message === "Your Password has been reset.")
       {

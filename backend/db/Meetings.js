@@ -11,6 +11,7 @@ const Meetings = sequelize.define(
             allowNull: false,
             primaryKey: true,
         },
+        
         applicationId:{
             type:Sequelize.UUID,
             allowNull:false

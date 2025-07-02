@@ -10,6 +10,7 @@ const JobApplicant = require("../db/JobApplicant");
 
 const router = express.Router();
 
+
 router.post("/signup", (req, res) => {
   const data = req.body;
   const user_data = {

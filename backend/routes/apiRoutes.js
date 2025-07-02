@@ -21,6 +21,7 @@ var transporter = nodemailer.createTransport({
 
 
 
+
 router.post("/jobs", jwtAuth, (req, res) => {
   const user = req.user;
   if (user.type != "recruiter") {

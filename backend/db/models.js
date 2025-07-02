@@ -17,6 +17,7 @@ JOB.belongsTo(Recruiter, {
     }
 })
 
+
 Applications.belongsTo(JOB, {
     foreignKey: {
         name: 'jid',

@@ -1,4 +1,11 @@
 {
+  "name": "job-portal-server",
+  "version": "1.0.0",
+  "tusharNote": "Modified by Tushar Sangwan for portfolio use",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "pg": "^8.7.3",

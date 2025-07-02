@@ -17,6 +17,7 @@ router.get("/resume/:file", (req, res) => {
   });
 });
 
+
 router.get("/profile/:file", (req, res) => {
   const address = path.join(__dirname, `../public/profile/${req.params.file}`);
   fs.access(address, fs.F_OK, (err) => {

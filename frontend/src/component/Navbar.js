@@ -13,7 +13,7 @@ import * as colors from "@material-ui/core/colors";
 import { useHistory } from "react-router-dom";
 import logo from '../logo.jpg'
 import isAuth, { userType } from "../lib/isAuth";
-
+// This is a one-line comment by tushar
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,

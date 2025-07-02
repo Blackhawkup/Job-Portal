@@ -1,9 +1,8 @@
 
 POST
-localhost:4444/auth/signup
+localhost: 4444/auth/signup
 
-// recruiter
-
+// recruite
 {
     "email": "john@gmail.com",
     "password": "test",
@@ -21,9 +20,7 @@ localhost:4444/auth/signup
     "contactNumber": "+91-8879456123",
     "bio": "I am a recruiter from Amazon Inc"
 }
-
 // applicant
-
 {
     "email": "shlok@gmail.com",
     "password": "test",
@@ -69,11 +66,10 @@ localhost:4444/auth/signup
         "Web Development"
     ]
 }
-
 // Login
 
 POST
-localhost:4444/auth/login
+localhost: 4444/auth/login
 
 
 {
@@ -145,14 +141,13 @@ localhost:4444/auth/login
 {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDA4Njg4Mzk1ZTUxMDIwYmI2OTVlZTMiLCJpYXQiOjE2MTExNjM3Nzl9.iFPFXu3aOax6muoCzNJavGSKa9s87S5AIXTiHvJ0OSQ"
 }
-
 // jobs
 
 GET
-localhost:4444/api/jobs
+localhost: 4444/api/jobs
 
 POST
-localhost:4444/api/jobs
+localhost: 4444/api/jobs
 
 Admin 1
 
@@ -161,7 +156,11 @@ Admin 1
     "maxApplicants": 5,
     "maxPositions": 1,
     "deadline": "2021-02-22T18:17:24.519Z",
-    "skillsets": ["C", "C++", "Javascript"],
+    "skillsets": [
+        "C",
+        "C++",
+        "Javascript"
+    ],
     "jobType": "Internship",
     "duration": 2,
     "salary": 4000
@@ -172,7 +171,10 @@ Admin 1
     "maxApplicants": 1,
     "maxPositions": 1,
     "deadline": "2021-02-20T18:17:24.519Z",
-    "skillsets": ["PHP", "Django"],
+    "skillsets": [
+        "PHP",
+        "Django"
+    ],
     "jobType": "Full Time",
     "duration": 0,
     "salary": 5000
@@ -185,40 +187,37 @@ Admin 2
     "maxApplicants": 5,
     "maxPositions": 3,
     "deadline": "2021-02-20T18:17:24.519Z",
-    "skillsets": ["ReactJS", "NodeJS", "Express"],
+    "skillsets": [
+        "ReactJS",
+        "NodeJS",
+        "Express"
+    ],
     "jobType": "Internship",
     "duration": 5,
     "salary": 4500
 }
-
 // view a job
 // delete a job
-
 // update a job
-
 {
     "maxApplicants": 4,
     "maxPositions": 2,
     "deadline": "2021-02-21T18:17:24.519Z"
 }
-
-
 // get user personal details
 GET
-localhost:4444/api/user
+localhost: 4444/api/user
 
 // update user details
 PUT
-localhost:4444/api/user
+localhost: 4444/api/user
 
 {
     "name": "Roman Rollins",
     "contactNumber": "+91-8945659878",
     "bio": "I am a recruiter from Flipkart Inc",
 }
-
 // job application
-
 {
     "sop": "Shlok: I wouldn't let you down"
 }
@@ -226,9 +225,7 @@ localhost:4444/api/user
 {
     "sop": "Ashwani: I hope you like my resume."
 }
-
 // update status
-
 // for client side
 {
     "status": "cancelled"
@@ -249,9 +246,7 @@ localhost:4444/api/user
 {
     "status": "finished"
 }
-
 // test rating
-
 {
     "applicantId": "6005738ac35d552e059705cb",
     "rating": 4.2

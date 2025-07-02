@@ -14,6 +14,7 @@ const Recruiter = sequelize.define(
       type: Sequelize.STRING,
       allowNull: false,
     },
+    
     contactNumber: {
       type: Sequelize.TEXT,
       allowNull: false,

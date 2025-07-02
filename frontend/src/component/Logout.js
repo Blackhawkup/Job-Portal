@@ -7,7 +7,7 @@ const Logout = (props) => {
   const setPopup = useContext(SetPopupContext);
   useEffect(() => {
     localStorage.removeItem("token");
-    localStorage.removeItem("type");
+    localStorage.removeItem("type");// This is a one-line comment by tushar
     setPopup({
       open: true,
       severity: "success",

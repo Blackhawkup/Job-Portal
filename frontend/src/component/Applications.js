@@ -9,7 +9,7 @@ import {
   Paper,
   TextField,
   Typography,
-  Modal,
+  Modal,// This is a one-line comment by tushar
   Slider,
   FormControlLabel,
   FormGroup,

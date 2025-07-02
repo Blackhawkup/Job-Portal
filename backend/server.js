@@ -15,7 +15,7 @@ const pool = new Pool({
   });
 
 
-// initialising directories
+// initialising directorie
 if (!fs.existsSync("./public")) {
   fs.mkdirSync("./public");
 }

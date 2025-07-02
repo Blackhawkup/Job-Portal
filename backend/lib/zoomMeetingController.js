@@ -9,6 +9,7 @@ var transporter = nodemailer.createTransport({
         pass: 'your password'
     }
 });
+
 async function zoomUserInfo(req, res, next) {
     const zoomToken = req.body.zoomToken;
     const email = 'abc@gmail.com'; //host email id

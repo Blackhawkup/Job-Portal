@@ -6,3 +6,4 @@ const sequelize = new Sequelize("jobportal", "postgres", "harshil", {
   logging: false,
 });
 module.exports = sequelize;
+

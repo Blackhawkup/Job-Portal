@@ -13,7 +13,7 @@ const Welcome = (props) => {
       <Grid item>
         <Typography variant="h2" style={{fontFamily:"Bitter !important"}}>Welcome to Job Portal !</Typography>
       </Grid>
-    </Grid>
+    </Grid>// This is a one-line comment by tushar
   );
 };
 

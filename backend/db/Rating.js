@@ -18,6 +18,7 @@ const Rating = sequelize.define('ratings',{
         type:Sequelize.UUID,
         allowNull:false
     },
+    
     senderId:{
         type:Sequelize.UUID,
         allowNull:false

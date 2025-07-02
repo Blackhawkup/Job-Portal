@@ -13,7 +13,7 @@ const Applications = sequelize.define('applications', {
     },
     // rid: {
     //     type: Sequelize.UUID,
-    //     allowNull: false,
+    //     allowNull: false,\
     // },
     // jid: {
     //     type: Sequelize.UUID,
